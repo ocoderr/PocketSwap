@@ -1,0 +1,1739 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/Migrations.sol": {
+      "lastModificationDate": 1651820245920,
+      "contentHash": "50b3b1dc92806dc8f604fc8c5c65518f",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/mocks/MockERC20.sol": {
+      "lastModificationDate": 1651820245920,
+      "contentHash": "402d7170300705c091e4b5ccce83b9aa",
+      "sourceName": "contracts/mocks/MockERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "MockERC20"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1651820399798,
+      "contentHash": "a9d2146925da52142435d3bb8df53c3c",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1651820399825,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1651820399826,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1651820399789,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/Pocket.sol": {
+      "lastModificationDate": 1651820245920,
+      "contentHash": "3413f9bfe7c7c1a605ae4407d01863ac",
+      "sourceName": "contracts/Pocket.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./pocketswap/interfaces/IPocket.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "Pocket"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1651820399876,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPocket.sol": {
+      "lastModificationDate": 1651820245923,
+      "contentHash": "64402e46de0516dd286fbffda4d36f7e",
+      "sourceName": "contracts/pocketswap/interfaces/IPocket.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "IPocket"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/PocketSwap.sol": {
+      "lastModificationDate": 1651820245920,
+      "contentHash": "07ae8749c4bf98b6519498d9bc4548b2",
+      "sourceName": "contracts/PocketSwap.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./pocketswap/abstract/PeripheryPayments.sol",
+        "./pocketswap/abstract/PeripheryImmutableState.sol",
+        "./pocketswap/interfaces/IPocketSwapFactory.sol",
+        "./pocketswap/interfaces/IPocketSwapLiquidityRouter.sol",
+        "./pocketswap/interfaces/IPocketSwapRouter.sol",
+        "./pocketswap/libraries/PairAddress.sol",
+        "./Pocket.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PocketSwap"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/abstract/PeripheryPayments.sol": {
+      "lastModificationDate": 1651820245922,
+      "contentHash": "48222338e0837761752dbd686d1a9dbf",
+      "sourceName": "contracts/pocketswap/abstract/PeripheryPayments.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "../interfaces/IPeripheryPayments.sol",
+        "../interfaces/external/IWETH9.sol",
+        "../libraries/TransferHelper.sol",
+        "./PeripheryImmutableState.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PeripheryPayments"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/abstract/PeripheryImmutableState.sol": {
+      "lastModificationDate": 1651820245922,
+      "contentHash": "1ca9d824cc6b6577bb90a16af4c64fae",
+      "sourceName": "contracts/pocketswap/abstract/PeripheryImmutableState.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPeripheryImmutableState.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PeripheryImmutableState"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPocketSwapFactory.sol": {
+      "lastModificationDate": 1651820245923,
+      "contentHash": "43f3db74276d9505e08d072759c18d19",
+      "sourceName": "contracts/pocketswap/interfaces/IPocketSwapFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "IPocketSwapFactory"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPocketSwapLiquidityRouter.sol": {
+      "lastModificationDate": 1651820245923,
+      "contentHash": "037662a78a63c5340ffd63e229bda167",
+      "sourceName": "contracts/pocketswap/interfaces/IPocketSwapLiquidityRouter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "IPocketSwapLiquidityRouter"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPocketSwapRouter.sol": {
+      "lastModificationDate": 1651820245924,
+      "contentHash": "5aceaeebaa519a351e2b475a38f7d2c5",
+      "sourceName": "contracts/pocketswap/interfaces/IPocketSwapRouter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./callback/IPocketSwapCallback.sol",
+        "./IPocketSwapPair.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "IPocketSwapRouter"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/PairAddress.sol": {
+      "lastModificationDate": 1651820245925,
+      "contentHash": "f5c3f612fce1d2c31017c19482a2a5aa",
+      "sourceName": "contracts/pocketswap/libraries/PairAddress.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPocketSwapFactory.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "PairAddress"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPeripheryPayments.sol": {
+      "lastModificationDate": 1651820245923,
+      "contentHash": "4b8cc8b2b8299a9cb05f0a1b275ebf1c",
+      "sourceName": "contracts/pocketswap/interfaces/IPeripheryPayments.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "IPeripheryPayments"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/external/IWETH9.sol": {
+      "lastModificationDate": 1651820245924,
+      "contentHash": "ce8ef6c9a64f599984fdbc9e47bf87df",
+      "sourceName": "contracts/pocketswap/interfaces/external/IWETH9.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "IWETH9"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1651820245925,
+      "contentHash": "efecf22f1997e2031ae493396b8ebe68",
+      "sourceName": "contracts/pocketswap/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPeripheryImmutableState.sol": {
+      "lastModificationDate": 1651820245923,
+      "contentHash": "e968d1e4407703a833ba1e871954b8f7",
+      "sourceName": "contracts/pocketswap/interfaces/IPeripheryImmutableState.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPeripheryImmutableState"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/callback/IPocketSwapCallback.sol": {
+      "lastModificationDate": 1651820245924,
+      "contentHash": "2a0398c9c1fbaebb785ad59ceb5d5ae0",
+      "sourceName": "contracts/pocketswap/interfaces/callback/IPocketSwapCallback.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "IPocketSwapCallback"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPocketSwapPair.sol": {
+      "lastModificationDate": 1651820245923,
+      "contentHash": "b8f3dff95f227f9bd84a0fb0624268b2",
+      "sourceName": "contracts/pocketswap/interfaces/IPocketSwapPair.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPocketSwapERC20.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPocketSwapPair"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IPocketSwapERC20.sol": {
+      "lastModificationDate": 1651820245923,
+      "contentHash": "f60ab6dc026742d5df0ba49fa5c4afc1",
+      "sourceName": "contracts/pocketswap/interfaces/IPocketSwapERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IPocketSwapERC20"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/router/LiquidityRouter.sol": {
+      "lastModificationDate": 1651820245926,
+      "contentHash": "8ffacceb835000476460869704215aae",
+      "sourceName": "contracts/pocketswap/router/LiquidityRouter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./liquidity/LiquidityProcessing.sol",
+        "../abstract/PeripheryValidation.sol",
+        "../abstract/PeripheryImmutableState.sol",
+        "../interfaces/IPocketSwapLiquidityRouter.sol",
+        "../interfaces/IPocketSwapPair.sol",
+        "../interfaces/IPocketSwapFactory.sol",
+        "../libraries/PairAddress.sol",
+        "../libraries/PocketSwapLibrary.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "LiquidityRouter"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/router/liquidity/LiquidityProcessing.sol": {
+      "lastModificationDate": 1651820245927,
+      "contentHash": "1545c486eea2e377f2bca2252b61aefb",
+      "sourceName": "contracts/pocketswap/router/liquidity/LiquidityProcessing.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IPocketSwapLiquidityRouter.sol",
+        "../../interfaces/IPocketSwapRouter.sol",
+        "../../interfaces/IPocketSwapFactory.sol",
+        "../../libraries/Path.sol",
+        "../../libraries/Math.sol",
+        "../../libraries/PocketSwapLibrary.sol",
+        "../../abstract/PeripheryImmutableState.sol",
+        "../../abstract/PeripheryPayments.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "LiquidityProcessing"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/abstract/PeripheryValidation.sol": {
+      "lastModificationDate": 1651820245922,
+      "contentHash": "5e0f9d83e4ebdc707fa033a3a65e8513",
+      "sourceName": "contracts/pocketswap/abstract/PeripheryValidation.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BlockTimestamp.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PeripheryValidation"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/PocketSwapLibrary.sol": {
+      "lastModificationDate": 1651820245925,
+      "contentHash": "dfb20f0f95e0a1e2365e00d5890152c2",
+      "sourceName": "contracts/pocketswap/libraries/PocketSwapLibrary.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PairAddress.sol",
+        "../interfaces/IPocketSwapFactory.sol",
+        "../interfaces/IPocketSwapPair.sol",
+        "./AddressStringUtil.sol",
+        "./PlainMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PocketSwapLibrary"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/Path.sol": {
+      "lastModificationDate": 1651820245925,
+      "contentHash": "01d6ba587e19b80318495d48ed70dc52",
+      "sourceName": "contracts/pocketswap/libraries/Path.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BytesLib.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "Path"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/Math.sol": {
+      "lastModificationDate": 1651820245925,
+      "contentHash": "154c80776c7e91e084d81e7828176804",
+      "sourceName": "contracts/pocketswap/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.16"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/BytesLib.sol": {
+      "lastModificationDate": 1651820245924,
+      "contentHash": "f69a3d4b090920eb1d1ad3428c3a0e02",
+      "sourceName": "contracts/pocketswap/libraries/BytesLib.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "BytesLib"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/AddressStringUtil.sol": {
+      "lastModificationDate": 1651820245924,
+      "contentHash": "ea280cc82372585b685cc682e4eefb9e",
+      "sourceName": "contracts/pocketswap/libraries/AddressStringUtil.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "AddressStringUtil"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/PlainMath.sol": {
+      "lastModificationDate": 1651820245925,
+      "contentHash": "386bf9f4545aecb57e6fc3c40706eab3",
+      "sourceName": "contracts/pocketswap/libraries/PlainMath.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PlainMath"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/abstract/BlockTimestamp.sol": {
+      "lastModificationDate": 1651820245922,
+      "contentHash": "35969f17f4c8e26d9fc51a8d466ab5b0",
+      "sourceName": "contracts/pocketswap/abstract/BlockTimestamp.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "BlockTimestamp"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/router/swap/SwapProcessing.sol": {
+      "lastModificationDate": 1651820245927,
+      "contentHash": "36014b47177368d6b574bb47c4ee5369",
+      "sourceName": "contracts/pocketswap/router/swap/SwapProcessing.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../libraries/PocketSwapLibrary.sol",
+        "../../libraries/Path.sol",
+        "../../libraries/PairAddress.sol",
+        "../../libraries/TransferHelper.sol",
+        "../../interfaces/IPocketSwapPair.sol",
+        "../../interfaces/IPocketSwapRouter.sol",
+        "../../abstract/PeripheryImmutableState.sol",
+        "../../abstract/PeripheryPayments.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "SwapProcessing"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/router/SwapRouter.sol": {
+      "lastModificationDate": 1651820245926,
+      "contentHash": "1b98133f7e84ccbd1cf0ae5cd508d1d9",
+      "sourceName": "contracts/pocketswap/router/SwapRouter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "./swap/SwapProcessing.sol",
+        "../abstract/PeripheryValidation.sol",
+        "../abstract/PeripheryImmutableState.sol",
+        "../abstract/Multicall.sol",
+        "../interfaces/callback/IPocketSwapCallback.sol",
+        "../interfaces/IPocketSwapRouter.sol",
+        "../interfaces/IPocketSwapPair.sol",
+        "../interfaces/IPocketSwapFactory.sol",
+        "../interfaces/IPocket.sol",
+        "../libraries/PocketSwapLibrary.sol",
+        "../libraries/CallbackValidation.sol",
+        "../libraries/PlainMath.sol",
+        "../libraries/Path.sol",
+        "../libraries/TransferHelper.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "SwapRouter"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/abstract/Multicall.sol": {
+      "lastModificationDate": 1651820245922,
+      "contentHash": "75490f307f9f44e4247d7319c1f26e4c",
+      "sourceName": "contracts/pocketswap/abstract/Multicall.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IMulticall.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/CallbackValidation.sol": {
+      "lastModificationDate": 1651820245924,
+      "contentHash": "7465da2012d5863d63414dbe3cea27e4",
+      "sourceName": "contracts/pocketswap/libraries/CallbackValidation.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPocketSwapPair.sol",
+        "./PairAddress.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "CallbackValidation"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/interfaces/IMulticall.sol": {
+      "lastModificationDate": 1651820245922,
+      "contentHash": "a2e56a9714654fdbdf3a7bd35ad4ebd1",
+      "sourceName": "contracts/pocketswap/interfaces/IMulticall.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.5"
+      ],
+      "artifacts": [
+        "IMulticall"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/PocketSwapPair.sol": {
+      "lastModificationDate": 1651820245921,
+      "contentHash": "8d6de70b2b7352177883267ae217211b",
+      "sourceName": "contracts/pocketswap/PocketSwapPair.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./PocketSwapERC20.sol",
+        "./interfaces/IPocketSwapFactory.sol",
+        "./interfaces/IPocketSwapPair.sol",
+        "./interfaces/callback/IPocketSwapCallback.sol",
+        "./pair/StorageData.sol",
+        "./libraries/PlainMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PocketSwapPair"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1651820245925,
+      "contentHash": "fa28da6398553255c4b4c8f85615cb8c",
+      "sourceName": "contracts/pocketswap/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.16"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/PocketSwapERC20.sol": {
+      "lastModificationDate": 1651820245921,
+      "contentHash": "6bebaf4d7dd8d71f249a78d0d6b0dce1",
+      "sourceName": "contracts/pocketswap/PocketSwapERC20.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IPocketSwapERC20.sol",
+        "./libraries/PlainMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PocketSwapERC20"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/pair/StorageData.sol": {
+      "lastModificationDate": 1651820245926,
+      "contentHash": "dd5fea0eab49fe2e90fb4b0796e00557",
+      "sourceName": "contracts/pocketswap/pair/StorageData.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IPocketSwapPair.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "StorageData"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/PocketSwapFactory.sol": {
+      "lastModificationDate": 1651820245921,
+      "contentHash": "093a6a074cd4dba65bce2022268244ab",
+      "sourceName": "contracts/pocketswap/PocketSwapFactory.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PocketSwapPair.sol",
+        "./interfaces/IPocketSwapFactory.sol",
+        "./libraries/PairAddress.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PocketSwapFactory"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/pocketswap/PocketSwapRouter.sol": {
+      "lastModificationDate": 1651820245921,
+      "contentHash": "9e748597bffa669f9c0c53122b9d5665",
+      "sourceName": "contracts/pocketswap/PocketSwapRouter.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./router/SwapRouter.sol",
+        "./router/LiquidityRouter.sol",
+        "./abstract/PeripheryImmutableState.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "PocketSwapRouter"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/mocks/MockPocket.sol": {
+      "lastModificationDate": 1651820245920,
+      "contentHash": "703a60b4380777cfcfc690da312344e7",
+      "sourceName": "contracts/mocks/MockPocket.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Pocket.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.4"
+      ],
+      "artifacts": [
+        "MockPocket"
+      ]
+    },
+    "/Users/yanliang/mycode/03-to-be-rich/pocketswap-old/contracts/mocks/WETH9.sol": {
+      "lastModificationDate": 1651820245921,
+      "contentHash": "a918613864947e13397cc504cbd577a3",
+      "sourceName": "contracts/mocks/WETH9.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.18"
+      ],
+      "artifacts": [
+        "WETH9"
+      ]
+    }
+  }
+}
