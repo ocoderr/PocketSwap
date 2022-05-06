@@ -1,23 +1,18 @@
-# PocketSwap
-
 ## Initialize
 ```
 npm install
 ```
 
-## Compile
+open terminal run
 ```
-truffle compile
-```
-
-## Tests
-
-To run tests please first run a Ganache server with 1e9 ETH to accounts:
-```
-ganache-cli -e 1000000
+ npx hardhat node
 ```
 
-Then run:
+open another terminal run  script
 ```
-truffle test
+npx hardhat run scripts/k-error.js --network localhost
 ```
+
+k-error!
+
+Error: VM Exception while processing transaction: reverted with reason string 'NOK: PocketSwap: K'
